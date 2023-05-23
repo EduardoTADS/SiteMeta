@@ -164,7 +164,7 @@ nav ul a{
 .cards {
     display: flex;
     justify-content: center;
-    height: 350px;
+    height: 100%;
     border-bottom: 20px;
 }
 
