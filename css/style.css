@@ -25,12 +25,6 @@ p{
     color: #0000009c;
 }
 
-.containerHeader{
-    max-width: 1400px;
-    margin: 0 auto;
-background-color: rgba(60, 63, 68, 0.5);
-}
-
 .btn{
 background-color: #4f9cf8;
 color: white;
@@ -52,7 +46,7 @@ transition: 0.2s;
     from{
         outline: 0px solid #4f9bf98a;
     }to{
-        outline: 10px solid rgba(79, 155, 249, 0.315);
+        outline: 8px solid rgba(79, 155, 249, 0.315);
     }
 }
 header{
@@ -81,12 +75,18 @@ nav ul a{
     display: block;
 }
 
-.container ul a{
+.containerHeader{
+    max-width: 1400px;
+    margin: 0 auto;
+background-color: rgba(60, 63, 68, 0.5);
+}
+
+.containerHeader ul a{
     color: white;
 }
 
 
-.container ul a:not(.btn):hover{
+.containerHeader ul a:not(.btn):hover{
     color: rgba(167, 163, 157, 0.795);
 }
 
@@ -147,4 +147,37 @@ nav ul a{
 
 .info-img img{
     width: 100%;
+}
+.depoimento .container{
+    justify-content: center;
+}
+
+.depoimento h3{
+    text-align: center;
+}
+
+.depoimento p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.depoimento .card-item{
+    background-color: #d3e6fd;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.depoimento .card-item img{
+    border-radius: 80%;
+    width: 90px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
 }
