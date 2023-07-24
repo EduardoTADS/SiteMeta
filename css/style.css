@@ -21,6 +21,7 @@ footer{
 
 p{
     color: #0000009c;
+    font-size: 16px;
 }
 
 .btn{
@@ -274,6 +275,36 @@ nav .close-icon{
     margin-top: 10px;
     color: white;
 }
+
+/*pagina sobre*/
+.sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre .sobre-text{
+    width: 50%;
+    padding-right: 40px;
+ }
+.sobre .sobre-text h3{
+    font-size: 45px;
+}
+ 
+.sobre .sobre-text p{
+    margin: 18px 0;
+    color: #000000a6;
+    font-size: 16px;
+}
+
+.sobre .sobre-img img{
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+
 @media(max-width : 830px){
     /*menu mobile*/
     .ul{
